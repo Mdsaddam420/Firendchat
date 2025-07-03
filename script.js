@@ -1,5 +1,4 @@
-function verifyFace() {
-  alert("Face verification system is loading...\n(This is demo — real system coming soon)");
-  
-  // এখানে ভবিষ্যতে ক্যামেরা খুলে রিয়েল টাইম ফেস যাচাই করবো
+function toggleMenu() {
+  const menu = document.getElementById('popupMenu');
+  menu.classList.toggle('hidden');
 }
